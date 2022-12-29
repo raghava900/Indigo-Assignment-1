@@ -1,0 +1,190 @@
+.middle {
+  height: 140px;
+  width: 80%;
+  background-color: #b8abce;
+  border-radius: 6px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.middle-heading {
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 6px;
+  padding: 6px;
+}
+
+.boxes {
+  height: 80px;
+  width: 150px;
+  box-shadow: 0px 0px 3px 3px #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-para {
+  font-family: 'Comfortaa';
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+
+.p {
+  text-align: center;
+}
+
+.icon {
+  margin: 5px;
+  text-align: center;
+}
+
+.acca-container {
+  height: 380px;
+  width: 270px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.acca {
+  height: 90px;
+  width: 270px;
+  background-color: #3b1e73;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+
+.react-icons {
+  height: 26px;
+  width: 25px;
+  padding: 5px;
+}
+
+.react-para {
+  padding: 4px;
+}
+
+.icon2 {
+  background-color: white;
+}
+
+.acca-para {
+  font-family: 'Comfortaa';
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.acca-eligibility {
+  height: 220px;
+  width: 100%;
+  background-color: #b8abce;
+}
+
+.acca-eligibility-heading {
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+
+.acca-eligibility-heading1 {
+  font-family: 'Comfortaa';
+  color: blue;
+  margin-left: 20px;
+}
+
+.acca-eligibility-para {
+  font-family: 'Comfortaa';
+  margin-left: 20px;
+}
+
+.box-icon {
+  padding: 4px;
+}
+
+.middle-sub {
+  font-family: 'Comfortaa';
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: #3b1e73;
+}
+
+.button3 {
+  height: 50px;
+  width: 250px;
+  color: white;
+  background-color: #b9013f;
+  font-family: 'Comfortaa';
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 5px;
+}
+
+.span1 {
+  height: 40px;
+  width: 60px;
+  border: 1px white;
+  color: white;
+}
+
+.button4 {
+  height: 35px;
+  width: 100px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 32%;
+}
+
+.acca-container1 {
+  height: 440px;
+  width: 300px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.acca1 {
+  height: 90px;
+  width: 300px;
+  background-color: #3b1e73;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}

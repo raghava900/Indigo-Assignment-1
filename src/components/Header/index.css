@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap');
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #3b1e73;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.dropBtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropBtn-anchor-tag {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-list {
+  /* text-align: center; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  margin-top: 2px;
+  padding: 4px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out transform 150ms ease-in-out;
+  pointer-events: none;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.header-button {
+  height: 25px;
+  width: 130px;
+  color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-icons {
+  margin: 5px;
+}
+
+.brochure {
+  height: 300px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brochure-heading {
+  font-family: 'Comfortaa';
+  font-size: 33px;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.brochure-para {
+  font-family: 'Comfortaa';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px;
+  padding: 5px;
+}
+
+.brochure-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button1 {
+  height: 35px;
+  width: 150px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button2 {
+  height: 35px;
+  width: 170px;
+  color: white;
+  background-color: #b9013f;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.register {
+  height: 250px;
+  width: 350px;
+  background-color: white;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.input {
+  margin: 9px;
+  padding: 7px;
+}
+
+.request-button {
+  height: 35px;
+  width: 270px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 9px;
+  padding: 7px;
+}

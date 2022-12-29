@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap');
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #3b1e73;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxes {
+  height: 80px;
+  width: 150px;
+  box-shadow: 0px 0px 3px 3px #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-para {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-weight: 800;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  margin-top: 2px;
+  padding: 4px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out transform 150ms ease-in-out;
+  pointer-events: none;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.header-button {
+  height: 25px;
+  width: 130px;
+  color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-icons {
+  margin: 5px;
+}
+
+.brochure {
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brochure-heading {
+  font-family: 'Nunito Sans';
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.brochure-para {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.brochure-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.ACCA {
+  height: 41px;
+  width: 151px;
+}
+.button1 {
+  height: 35px;
+  width: 150px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button2 {
+  height: 35px;
+  width: 170px;
+  color: white;
+  background-color: #b9013f;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.register {
+  height: 340px;
+  width: 370px;
+  background-color: white;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.input {
+  margin: 9px;
+  padding: 7px;
+}
+
+.request-button {
+  height: 35px;
+  width: 270px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 9px;
+  padding: 7px;
+}
+
+.Register-text {
+  text-align: center;
+}
+
+.popup-container {
+  height: 120px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.popup-request {
+  font-family: 'Roboto';
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.middle {
+  height: 140px;
+  width: 80%;
+  background-color: #b8abce;
+  border-radius: 6px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 3px 3px #ccc;
+}
+
+.middle-heading {
+  font-family: 'Nunito Sans';
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 6px;
+  padding: 6px;
+}
+
+.boxes-1 {
+  height: 80px;
+  width: 150px;
+  box-shadow: 0px 0px 3px 3px #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+.box-para {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-weight: 800;
+}
+
+.p {
+  text-align: center;
+}
+
+.icon {
+  margin: 5px;
+  text-align: center;
+}
+
+.acca-container {
+  height: 380px;
+  width: 270px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.acca {
+  height: 90px;
+  width: 270px;
+  background-color: #3b1e73;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+
+.react-icons {
+  height: 26px;
+  width: 25px;
+  padding: 5px;
+}
+
+.react-para {
+  padding: 4px;
+}
+
+.icon2 {
+  background-color: white;
+}
+
+.acca-para {
+  font-family: 'Comfortaa';
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.acca-eligibility {
+  height: 190px;
+  width: 100%;
+  background-color: #b8abce;
+}
+
+.acca-eligibility-heading {
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+
+.acca-eligibility-heading1 {
+  font-family: 'Comfortaa';
+  color: blue;
+  margin-left: 20px;
+}
+
+.acca-eligibility-para {
+  font-family: 'Comfortaa';
+  margin-left: 20px;
+}
+
+.box-icon {
+  padding: 4px;
+}
+
+.middle-sub {
+  font-family: 'Comfortaa';
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: #3b1e73;
+}
+
+.button3 {
+  height: 50px;
+  width: 250px;
+  color: white;
+  background-color: #b9013f;
+  font-family: 'Comfortaa';
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 5px;
+}
+
+.span1 {
+  height: 40px;
+  width: 60px;
+  border: 1px white;
+  color: white;
+}
+
+.button4 {
+  height: 35px;
+  width: 100px;
+  color: white;
+  background-color: #3b1e73;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 32%;
+}
+
+.acca-container1 {
+  height: 440px;
+  width: 300px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.acca1 {
+  height: 90px;
+  width: 300px;
+  background-color: #3b1e73;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+
+.box-1 {
+  height: 380px;
+  width: 270px;
+  display: flex;
+  padding: 40px;
+  flex-flow: column;
+  max-width: 350px;
+  align-self: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  background: #f7f8f9;
+  box-shadow: 0px 2px 1px -1px rgb(50 18 122 / 67%),
+    0px 1px 1px 0px rgb(50 18 122 / 49%), 0px 1px 3px 0px rgb(50 18 122 / 52%) !important;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.image-size {
+  height: 90px;
+  width: 100px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-title {
+  font-family: 'Nunito Sans';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #32127a;
+}
